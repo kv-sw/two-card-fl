@@ -4,7 +4,6 @@ class_name DiscardOverlay
 @export var dim_color: Color = Color(0, 0, 0, 0.18)
 
 @export var x_color: Color = Color(0.7, 0.3, 0.3, 0.6)
-# Color(0.90, 0.15, 0.15, 0.60)
 @export var border_color: Color = Color(0.7, 0.3, 0.3, 0.6)# Color(0.90, 0.15, 0.15, 0.75)
 
 @export var line_width: float = 2.0

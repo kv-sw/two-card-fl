@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770675374
+::res://::1770676255
 card_view.tscn::PackedScene::649252201511569989::1770675303::0::1::::<><><>0<>0<><>::uid://bukmrc5yh5clp::::res://scripts/CardView.gd<>uid://dfo573ml88l2e::::res://scripts/DiscardOverlay.gd
 export_presets.cfg::TextFile::-1::1770675374::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::7316865663979070349::1770598849::1770598853::1::::<><><>0<>0<>3f1a6f6871d81dd6821c593d50f1a10a<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
@@ -59,13 +59,13 @@ TC.png::CompressedTexture2D::3739161154249472971::1770597183::1770599066::1::::<
 TD.png::CompressedTexture2D::5601814831023739289::1770597183::1770599066::1::::<><><>0<>0<>85682d4018c8493b4ac3d291e342fe99<>res://.godot/imported/TD.png-1d6b969935433800a36a0a8be75aa8c1.ctex::
 TH.png::CompressedTexture2D::2473959192947708819::1770597182::1770599066::1::::<><><>0<>0<>25d462f79c9fc72885e703578b0514a6<>res://.godot/imported/TH.png-782ffc16ed3847f8ec4ffb59d5bcfc23.ctex::
 TS.png::CompressedTexture2D::1620255648939725117::1770597183::1770599066::1::::<><><>0<>0<>0401bc6d2345619ff33ead3a0aa88c27<>res://.godot/imported/TS.png-67cb4a7e51b279cfd316666c1dc95a09.ctex::
+::res://docs/::1770675729
+index.apple-touch-icon.png::CompressedTexture2D::6694592612069534608::1770675374::1770676336::1::::<><><>0<>0<>98b4e878f744d2280e8278a54153ac43<>res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex::
+index.icon.png::CompressedTexture2D::4316968334017555955::1770675374::1770676336::1::::<><><>0<>0<>3ed9b7d88d7fdf9e9a39d2cdb53d33d1<>res://.godot/imported/index.icon.png-b92c9a802ad4b78e247784454a6b506f.ctex::
+index.png::CompressedTexture2D::1341958937244771960::1770675374::1770676336::1::::<><><>0<>0<>44aa55444d269587e7b9341c70cab417<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
 ::res://scripts/::1770675192
 CardDB.gd::GDScript::5974997963625569011::1770600986::0::1::::CardDB<>Node<><>0<>0<><>::
 CardView.gd::GDScript::3811600448895746413::1770674834::0::1::::CardView<>TextureButton<><>0<>0<><>::
 DiscardOverlay.gd::GDScript::7540987702750908990::1770675192::0::1::::DiscardOverlay<>Control<><>0<>0<><>::
 HandEval.gd::GDScript::4287481447210426992::1770603785::0::1::::HandEval<>Node<><>0<>0<><>::
 Main.gd::GDScript::756736233204735948::1770674437::0::1::::<>Control<><>0<>0<><>::
-::res://web_export/::1770675374
-index.apple-touch-icon.png::CompressedTexture2D::6694592612069534608::1770675374::1770675729::1::::<><><>0<>0<>1af5e342fc2e5bb1fa46850fe56f8ed1<>res://.godot/imported/index.apple-touch-icon.png-4d27ec496bd7ecf4584e814d5ed34e23.ctex::
-index.icon.png::CompressedTexture2D::4316968334017555955::1770675374::1770675728::1::::<><><>0<>0<>699b08e367ec7322a80f765482a92567<>res://.godot/imported/index.icon.png-df48615e124f35601a0d15938b6e60ae.ctex::
-index.png::CompressedTexture2D::1341958937244771960::1770675374::1770675729::1::::<><><>0<>0<>5d0c071f00e535bd6d8da98065333e1f<>res://.godot/imported/index.png-3755de3ad034557d17ad1a4f6e0616c2.ctex::
