@@ -1,11 +1,12 @@
 Control
+TextureButton
+RichTextLabel
+HBoxContainer
 CenterContainer
 VBoxContainer
-HBoxContainer
 Panel
 Label
 ColorRect
-TextureButton
 TextureRect
 PanelContainer
 Button

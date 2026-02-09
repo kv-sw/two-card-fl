@@ -11,9 +11,12 @@ corner_radius_top_right = 8
 corner_radius_bottom_right = 8
 corner_radius_bottom_left = 8
 
-[node name="CardView" type="TextureButton" unique_id=852612814]
+[node name="CardView" type="Control" unique_id=2016998809]
 custom_minimum_size = Vector2(112, 160)
-stretch_mode = 5
+layout_mode = 3
+anchors_preset = 0
+offset_right = 112.0
+offset_bottom = 160.0
 script = ExtResource("1_two4k")
 
 [node name="DiscardOverlay" type="Control" parent="." unique_id=1884731170]
@@ -42,9 +45,9 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 1.0
 offset_left = -1.0
-offset_top = -3.0
+offset_top = -5.0
 offset_right = 1.0
-offset_bottom = 3.0
+offset_bottom = 9.0
 mouse_filter = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_po74q")
 
@@ -54,7 +57,7 @@ anchors_preset = -1
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 6.0
-offset_top = 1.0
+offset_top = -2.0
 offset_right = -6.0
 offset_bottom = -1.0
 grow_horizontal = 2
@@ -69,9 +72,9 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = -1.0
-offset_top = -3.0
+offset_top = -9.0
 offset_right = 1.0
-offset_bottom = 3.0
+offset_bottom = 5.0
 grow_horizontal = 2
 grow_vertical = 0
 mouse_filter = 2
@@ -89,3 +92,10 @@ offset_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
+
+[node name="CardButton" type="TextureButton" parent="." unique_id=712091876]
+custom_minimum_size = Vector2(112, 160)
+layout_mode = 1
+offset_right = 40.0
+offset_bottom = 40.0
+stretch_mode = 5
