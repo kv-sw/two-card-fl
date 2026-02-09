@@ -1,0 +1,11 @@
+res://card_view.tscn
+res://card_view.gd
+res://scripts/CardDB.gd
+res://scripts/Handeval.gd
+res://scripts/HandEval.gd
+res://Main.gd
+res://main.tscn
+res://selection_overlay.gd
+res://scripts/DiscardOverlay.gd
+res://scripts/CardView.gd
+res://scripts/Main.gd

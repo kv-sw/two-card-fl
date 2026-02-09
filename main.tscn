@@ -1,0 +1,83 @@
+[gd_scene format=3 uid="uid://blpsxtw0nhc8x"]
+
+[ext_resource type="Script" uid="uid://k1tlnqyjlh7i" path="res://scripts/Main.gd" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://jirda1g5lffp" path="res://card_view.tscn" id="2_h2yge"]
+
+[node name="Main" type="Control" unique_id=606764951]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ig7tw")
+
+[node name="Background" type="ColorRect" parent="." unique_id=1644752998]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.16827294, 0.6554034, 7.70092e-07, 1)
+
+[node name="TopBar" type="HBoxContainer" parent="." unique_id=1496344129]
+layout_mode = 0
+offset_right = 600.0
+offset_bottom = 50.0
+
+[node name="Title" type="Label" parent="TopBar" unique_id=1400536903]
+layout_mode = 2
+text = "Two Card FL"
+
+[node name="Table" type="VBoxContainer" parent="." unique_id=6665445]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="DealerCenter" type="CenterContainer" parent="Table" unique_id=1278468156]
+layout_mode = 2
+
+[node name="DealerRow" type="HBoxContainer" parent="Table/DealerCenter" unique_id=524545931]
+layout_mode = 2
+
+[node name="DealerCard1" parent="Table/DealerCenter/DealerRow" unique_id=852612814 instance=ExtResource("2_h2yge")]
+layout_mode = 2
+
+[node name="DealerCard2" parent="Table/DealerCenter/DealerRow" unique_id=90217056 instance=ExtResource("2_h2yge")]
+layout_mode = 2
+
+[node name="CommunityRow" type="CenterContainer" parent="Table" unique_id=2082186449]
+layout_mode = 2
+
+[node name="CommunityCard" parent="Table/CommunityRow" unique_id=331465853 instance=ExtResource("2_h2yge")]
+layout_mode = 2
+
+[node name="PlayerCenter" type="CenterContainer" parent="Table" unique_id=1970332796]
+layout_mode = 2
+
+[node name="PlayerRow" type="HBoxContainer" parent="Table/PlayerCenter" unique_id=1777914388]
+layout_mode = 2
+
+[node name="PlayerCard1" parent="Table/PlayerCenter/PlayerRow" unique_id=229618172 instance=ExtResource("2_h2yge")]
+layout_mode = 2
+
+[node name="PlayerCard2" parent="Table/PlayerCenter/PlayerRow" unique_id=481709825 instance=ExtResource("2_h2yge")]
+layout_mode = 2
+
+[node name="ConfirmCenter" type="CenterContainer" parent="Table" unique_id=1653293245]
+layout_mode = 2
+
+[node name="ConfirmButton" type="Button" parent="Table/ConfirmCenter" unique_id=1320289306]
+layout_mode = 2
+text = "Confirm"
+
+[node name="ResultPanel" type="PanelContainer" parent="Table" unique_id=2139584205]
+layout_mode = 2
+
+[node name="ResultLabel" type="Label" parent="Table/ResultPanel" unique_id=1383041037]
+layout_mode = 2
