@@ -1,10 +1,10 @@
 extends Control
 
-@onready var dealer1: CardView = $"RootHBox/Table/DealerCenter/DealerRow/DealerCard1"
-@onready var dealer2: CardView = $"RootHBox/Table/DealerCenter/DealerRow/DealerCard2"
-@onready var community: CardView = $"RootHBox/Table/CommunityRow/CommunityCard"
-@onready var player1: CardView = $"RootHBox/Table/PlayerCenter/PlayerRow/PlayerCard1"
-@onready var player2: CardView = $"RootHBox/Table/PlayerCenter/PlayerRow/PlayerCard2"
+@onready var dealer1: CardView = $"RootHBox/Table/DealerArea/DealerCenter/DealerRow/DealerCard1"
+@onready var dealer2: CardView = $"RootHBox/Table/DealerArea/DealerCenter/DealerRow/DealerCard2"
+@onready var community: CardView = $"RootHBox/Table/CommunityArea/CommunityRow/CommunityCard"
+@onready var player1: CardView = $"RootHBox/Table/PlayerArea/PlayerCenter/PlayerRow/PlayerCard1"
+@onready var player2: CardView = $"RootHBox/Table/PlayerArea/PlayerCenter/PlayerRow/PlayerCard2"
 
 @onready var confirm_button: Button = $"RootHBox/Table/ConfirmCenter/ConfirmButton"
 @onready var result_label: Label = $"ResultPanel/ResultLabel"
