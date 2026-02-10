@@ -68,6 +68,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_constants/separation = 35
 
 [node name="Table" type="VBoxContainer" parent="RootHBox" unique_id=6665445]
 layout_mode = 2
@@ -160,14 +161,17 @@ size_flags_horizontal = 3
 [node name="HowToLabel" type="RichTextLabel" parent="RootHBox/TextControl" unique_id=491476344]
 layout_mode = 2
 size_flags_vertical = 3
-text = "How to Play:
-The object of the game is two make the best two-card hand. Only pairs and high card (with kicker) are considered; no straights/flushes/etc.
+size_flags_stretch_ratio = 1.92
+text = "
 
-Player is dealt two hole cards. They then choose to either keep both hole cards, or to discard one hole card of their choice.
+How to Play:
+The object of the game is to make the best two-card hand. Only pairs and high card (with kicker) are considered; no straights/flushes/etc.
 
-If they keep both hole cards, that is their two-card hand. If they discard one hole card, their two-card hand will be their remaining hole card combined with the unknown Community card.
+The Player is dealt two hole cards. One Dealer hole card is dealt face-up. The Player then chooses to either keep both their hole cards, or to choose one of their hole cards to discard.
 
-Once the Player has made their decision, the Community card and the Dealer hole cards are revealed. The Dealer uses their two hole cards and 	the Community card to make their best two card hand. Player and Dealer hands are compared and action is resolved."
+If the Player keeps both hole cards, that is their two-card hand. If they discard one hole card, their two-card hand will be their remaining hole card combined with the unknown Community card.
+
+Once the Player has made their decision, the Community card and the remaining Dealer hole card are revealed. The Dealer uses their two hole cards and the Community card to make their best two card hand. Player and Dealer hands are compared and action is resolved."
 
 [node name="TitleLabel" type="RichTextLabel" parent="RootHBox/TextControl" unique_id=591392510]
 layout_mode = 2

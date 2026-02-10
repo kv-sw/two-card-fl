@@ -87,7 +87,7 @@ func _on_deal() -> void:
 	# Show player face up; dealer face down; community down
 	_set_card_view(player1, player_cards[0], true)
 	_set_card_view(player2, player_cards[1], true)
-	_set_card_view(dealer1, dealer_cards[0], false)
+	_set_card_view(dealer1, dealer_cards[0], true)
 	_set_card_view(dealer2, dealer_cards[1], false)
 	_set_card_view(community, community_card, false)
 
@@ -138,9 +138,9 @@ func _on_confirm() -> void:
 
 	var cmp: int = HandEval.compare(player_best, dealer_best)
 	if cmp == 1:
-		result_label.text = "You WIN!"
+		result_label.text = "Player WIN!"
 	elif cmp == -1:
-		result_label.text = "You LOSE."
+		result_label.text = "Player LOSE."
 	else:
 		result_label.text = "PUSH."
 
