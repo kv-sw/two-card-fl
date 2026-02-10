@@ -7,7 +7,7 @@ extends Control
 @onready var player2: CardView = $"RootHBox/Table/PlayerCenter/PlayerRow/PlayerCard2"
 
 @onready var confirm_button: Button = $"RootHBox/Table/ConfirmCenter/ConfirmButton"
-@onready var result_label: Label = $"RootHBox/Table/ResultPanel/ResultLabel"
+@onready var result_label: Label = $"ResultPanel/ResultLabel"
 
 enum ActionMode { CONFIRM, NEW_ROUND }
 var action_mode: ActionMode = ActionMode.CONFIRM
@@ -94,7 +94,7 @@ func _on_deal() -> void:
 	player1.selectable = true
 	player2.selectable = true
 
-	result_label.text = "Optional: click one of your cards to discard, then Confirm.\nOr Confirm without discarding."
+	result_label.text = "Click a card and press Confirm to discard it.\n\nOr press Confirm without selecting a card to keep your hand."
 
 func _on_player_card_clicked(cv: CardView) -> void:
 	if not round_active or decision_locked:
